@@ -1,0 +1,56 @@
+{
+  "name": "vf-renderer",
+  "version": "0.0.1",
+  "description": "vf render",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "dist": "webpack --config webpack.dist.config.js"
+  },
+  "main": "./dist/vf-renderer.min.js",
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "WebGL",
+    "Shader"
+  ],
+  "author": "WaterTian",
+  "license": "MIT",
+  "homepage": "https://github.com/vfjs/vf-renderer",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:vfjs/vf-renderer.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "eslint": "^5.2.0",
+    "eslint-loader": "^2.1.0",
+    "glslify-loader": "^1.0.2",
+    "path": "^0.12.7",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.6.2",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-glsl-loader": "^1.0.1"
+  },
+  "dependencies": {
+    "remove-array-items": "^1.1.0",
+    "bit-twiddle": "^1.0.2",
+    "eventemitter3": "^3.1.0",
+    "vf-gl-core": "0.0.2"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
