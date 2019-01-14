@@ -15,8 +15,6 @@ export { default as Texture } from './textures/Texture';
 export { default as Sprite } from './sprites/Sprite';
 export { default as SpriteRenderer } from './sprites/SpriteRenderer';
 
-export { default as Application } from './Application';
-
 
 if (typeof window !== 'undefined')
 {
