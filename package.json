@@ -14,14 +14,14 @@
   ],
   "keywords": [
     "WebGL",
-    "Shader"
+    "Renderer"
   ],
   "author": "WaterTian",
   "license": "MIT",
   "homepage": "https://github.com/vfjs/vf-renderer",
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:vfjs/vf-renderer.git"
+    "url": "git+https://github.com/vfjs/vf-renderer.git"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -8,9 +8,7 @@ function checkPrecision(src, def)
         if (src[0].substring(0, 9) !== 'precision')
         {
             const copy = src.slice(0);
-
             copy.unshift(`precision ${def} float;`);
-
             return copy;
         }
     }
@@ -18,7 +16,6 @@ function checkPrecision(src, def)
     {
         return `precision ${def} float;\n${src}`;
     }
-
     return src;
 }
 
