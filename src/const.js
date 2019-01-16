@@ -8,7 +8,7 @@
  * @type {string}
  */
 // export const VERSION = __VERSION__;
-export const VERSION = '0.0.1';
+export const VERSION = '0.0.2';
 
 
 /**

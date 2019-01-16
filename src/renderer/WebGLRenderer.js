@@ -26,7 +26,7 @@ let CONTEXT_UID = 0;
  * @memberof SINT
  * @extends SINT.SystemRenderer
  */
-export default class WebGLRenderer extends SystemRenderer
+export default class WebGLRenderer extends SystemRenderer 
 {
     // eslint-disable-next-line valid-jsdoc
     /**
@@ -353,7 +353,6 @@ export default class WebGLRenderer extends SystemRenderer
         this.currentRenderer.stop();
         this.currentRenderer = objectRenderer;
         this.currentRenderer.start();
-        console.log("setObjectRenderer");
     }
 
     /**

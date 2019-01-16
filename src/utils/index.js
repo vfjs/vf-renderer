@@ -277,20 +277,16 @@ export function sayHello(type)
     if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1)
     {
         const args = [
-            `\n %c %c %c vf-renderer v ${VERSION} - ✰ ${type} %c %c \n\n`,
-            'background: #ff6611; padding:5px 0;',
+            `\n %c %c vf-renderer v ${VERSION} -  ${type}  \n`,
             'background: #ff6611; padding:5px 0;',
             'color: #ff6611; background: #030307; padding:5px 0;',
-            'background: #ff6611; padding:5px 0;',
-            'background: #ff6611; padding:5px 0;',
-            'background: #ff6611; padding:5px 0;',
         ];
 
         window.console.log.apply(console, args);
     }
     else if (window.console)
     {
-        window.console.log(`SINTJS ${VERSION} - ${type} - http://www.sintlib.com/`);
+        window.console.log(`vf-renderer ${VERSION} - ${type}`);
     }
 
     saidHello = true;

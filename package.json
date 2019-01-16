@@ -1,6 +1,6 @@
 {
   "name": "vf-renderer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vf render",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.js",
