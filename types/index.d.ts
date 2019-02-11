@@ -22,16 +22,6 @@ declare namespace PIXI {
     const TEXT_GRADIENT: typeof CONST.TEXT_GRADIENT;
     const UPDATE_PRIORITY: typeof CONST.UPDATE_PRIORITY;
 
-    function autoDetectRenderer(
-        width: number,
-        height: number,
-        options?: PIXI.RendererOptions,
-        forceCanvas?: boolean
-    ): PIXI.WebGLRenderer | PIXI.CanvasRenderer;
-    function autoDetectRenderer(
-        options?: PIXI.RendererOptions
-    ): PIXI.WebGLRenderer | PIXI.CanvasRenderer;
-    const loader: PIXI.loaders.Loader;
 
     //////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////SETTINGS///////////////////////////////////////

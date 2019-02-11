@@ -20,4 +20,6 @@ if (typeof window !== 'undefined')
 {
     window.vf = window.vf || {};
     window.vf.renderer = exports;
+
+    global.PIXI = exports;
 }
